@@ -14,6 +14,7 @@ namespace Week1Api
             BaseClient clientbase = new BaseClient("https://testonline.botswanapost.co.bw/api/api/v1/ApiUsers/authenticate", "username", "password");
             BaseResponse response = new BaseResponse();
             //BaseResponse respons = clientbase.GetCallV2Async("Candidate").Result;
+            Something();
         }
     }
         }
